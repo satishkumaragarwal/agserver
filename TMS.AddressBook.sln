@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.AddressBook.WebApplication", "TMS.AddressBook.WebApplication\TMS.AddressBook.WebApplication.csproj", "{403B3AD3-99B0-4967-AC78-CA09046DDA55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.AddressBook.BusinessLayer", "TMS.AddressBook.BusinessLayer\TMS.AddressBook.BusinessLayer.csproj", "{C4A0EF01-0B5F-4314-947D-7EA533F3081A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.AddressBook.DataLayer", "TMS.AddressBook.DataLayer\TMS.AddressBook.DataLayer.csproj", "{9CB619B7-C39B-4D07-B77F-BA2BAFD22145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.AddressBook.CommonLayer", "TMS.AddressBook.CommonLayer\TMS.AddressBook.CommonLayer.csproj", "{BCB959FA-960E-4893-8117-DE06D5A83507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.AddressBook.Resolver", "TMS.AddressBook.Resolver\TMS.AddressBook.Resolver.csproj", "{B66E7FD9-A8C9-4ED4-9392-DE7B7E45B397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.AddressBook.Logging", "TMS.AddressBook.Logging\TMS.AddressBook.Logging.csproj", "{E71F59B6-A610-4AB4-9B24-FDACB82D5531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{403B3AD3-99B0-4967-AC78-CA09046DDA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403B3AD3-99B0-4967-AC78-CA09046DDA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403B3AD3-99B0-4967-AC78-CA09046DDA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403B3AD3-99B0-4967-AC78-CA09046DDA55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A0EF01-0B5F-4314-947D-7EA533F3081A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A0EF01-0B5F-4314-947D-7EA533F3081A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A0EF01-0B5F-4314-947D-7EA533F3081A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A0EF01-0B5F-4314-947D-7EA533F3081A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB619B7-C39B-4D07-B77F-BA2BAFD22145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB619B7-C39B-4D07-B77F-BA2BAFD22145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB619B7-C39B-4D07-B77F-BA2BAFD22145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB619B7-C39B-4D07-B77F-BA2BAFD22145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB959FA-960E-4893-8117-DE06D5A83507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB959FA-960E-4893-8117-DE06D5A83507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB959FA-960E-4893-8117-DE06D5A83507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB959FA-960E-4893-8117-DE06D5A83507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66E7FD9-A8C9-4ED4-9392-DE7B7E45B397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66E7FD9-A8C9-4ED4-9392-DE7B7E45B397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66E7FD9-A8C9-4ED4-9392-DE7B7E45B397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66E7FD9-A8C9-4ED4-9392-DE7B7E45B397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71F59B6-A610-4AB4-9B24-FDACB82D5531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71F59B6-A610-4AB4-9B24-FDACB82D5531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71F59B6-A610-4AB4-9B24-FDACB82D5531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71F59B6-A610-4AB4-9B24-FDACB82D5531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
